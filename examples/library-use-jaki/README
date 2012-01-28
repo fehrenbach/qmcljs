@@ -1,0 +1,23 @@
+This example shows how to use a ClojureScript library.
+In this case jaki, a CouchDB client library.
+All this example does, is load and display a list of local CouchDB databases.
+You will need a running CouchDB server.
+Compile with
+$ cljsc src '{:optimizations :simple :pretty-print true}' > couches.js
+
+Note: I could not get whitespace and advanced compilation to work.
+Send me an email if you do.
+
+
+Jaki is 
+
+Copyright (C) 2011 Murphy McMahon
+
+Distributed under the Eclipse Public License, the same as Clojure.
+
+
+Find jaki here: https://github.com/pandeiro/jaki
+
+It is bundled here only for simplicity.
+ClojureScript and Jaki both do not have any releases at the time of this writing. If something does not work try the latest versions.
+
