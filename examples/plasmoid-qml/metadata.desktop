@@ -1,0 +1,21 @@
+[Desktop Entry]
+Name=Hello QML
+Comment=A hello world widget in QML
+Icon=chronometer
+ 
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-Plasma-DefaultSize=200,100
+ 
+X-KDE-PluginInfo-Author=Stefan Fehrenbach
+X-KDE-PluginInfo-Email=stefan.fehrenbach@gmail.com
+X-KDE-PluginInfo-Website=https://github.com/morphling/qmcljs
+X-KDE-PluginInfo-Category=Examples
+X-KDE-PluginInfo-Name=org.morphling.hello-qml
+X-KDE-PluginInfo-Version=0.0
+ 
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=BSD
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-ServiceTypes=Plasma/Applet
+Type=Service
